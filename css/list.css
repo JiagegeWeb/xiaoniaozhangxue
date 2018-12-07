@@ -1,0 +1,43 @@
+.box{min-width: 1130px;margin: 0 auto;height: 100%;overflow: hidden;}
+.box_bx{width: 1130px;height: 100%;margin: 0 auto;overflow: hidden;}
+.jiachang{background: url(../img/pen_line_long.png)no-repeat 0 58px;    color: #311759;
+    font-size: 30px;height: 60px;position: relative;width: 0;}
+.box_list{padding-top: 40px;width: 1130px;overflow: hidden;}
+.box_list_item{    width: 513px;
+    height: 202px;
+    float: left;
+    background: #fff;
+    padding: 36px 0 0 20px;
+    margin: 0 20px 30px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+	}
+
+.box_list_item:hover{    border-color: #86759e;transform: translateY(-6px);transition: 0.5s;}
+.box_list_item:hover .xiaojiantou{left:56px ;}
+.item_left_img{width: 260px;height: 168px;overflow: hidden;float: left;margin-right: 17px;}
+.item_left_img img:nth-child(1){width: 100%;height: 100%;border: 0 none;}
+.item_right_txt{width: 221px;float: left;}
+.item_tit{    font-size: 20px;
+    color: #454548;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    padding-top: 15px;}
+.item_time{font-size: 14px;padding-top: 2px;    color: #6b6a6f;
+    font-family: Arial, Helvetica, sans-serif;}
+.item_content{padding-top: 8px;line-height: 25px;color: #6b6a6f; font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;}
+.jiachang .bi2{right: 22px;}
+.xiaojiantou{z-index: 2;position: absolute;    transition: all 0.3s ease 0s;
+    top: 36px;
+    left: 0px;}
+.list_xiala{margin: 30px auto;text-align: center;}
+.list_xiala_anniu{display: block;width: 58px;height: 58px;margin: 0 auto;
+background: url(../img/lis_more_btn_bg.png)no-repeat 0 -58px;}
+.list_xiala_anniu:hover{background-position: 0 0;transition: 0.3s;}
+.list_bottom_img{   height: 33px;
+    background: #f1f2f6 url(../img/map_bottomimg.png)no-repeat top center;
+    width: 100%;
+    min-width: 1100px;}

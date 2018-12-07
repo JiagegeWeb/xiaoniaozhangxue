@@ -1,0 +1,210 @@
+.warp {
+		position: relative;
+		overflow: hidden;
+		left: 0;top: 0;
+	}
+	.box {
+		width: 100%;
+		height: 500%;
+		top: 0;
+		position: absolute;
+	}
+	.content_one {
+		width: 100%;min-width: 1100px;overflow: hidden;
+		height: 20%;
+		position: relative;
+	}
+.nav{width: 100%;min-width: 1100px;background: url(../img/aboutxiaoniao/beader_bg.jpg)top center;
+position: fixed;top: 0;z-index: 100;}
+.nav_bx{width: 1100px;margin: 0 auto;height: 50px;}
+.nav_logo{float: left;}
+.nav_logo a img{border: 0 none;}
+.nav_wrap{width: 930px;margin: 0 auto;height: 25px;line-height: 25px;float: right;
+padding-top: 11px;text-align: right;}
+.wrap_list{position: relative;float: left;}
+.wrap_list_item{font-size: 16px;text-align: center;    color: #aeabb4;padding: 0 15px;
+height: 30px;cursor: pointer;position: relative;display: block;}
+.wrap_list_item:hover{background: url(../img/nav_now_bg.png)no-repeat bottom center;transition: all 0.5s ease 0s;color: #FFFFFF;}
+.wrap_list_lat{position: relative;float: left;}
+.wrap_list_item_last{font-size: 16px;text-align: center;    color: #aeabb4;padding: 0 15px;
+height: 30px;cursor: pointer;position: relative;display: block;}
+.wrap_list_item_last:hover{background: url(../img/nav_now_bg.png)no-repeat bottom center;transition: all 0.5s ease 0s;color: #FFFFFF;}
+.nav_active{color: #FFFFFF;background: url(../img/nav_now_bg.png)no-repeat bottom center;}
+.one_content{width: 100%;font-size: 20px;position: absolute;}
+.one_img1{display: block;margin: 0 auto;border: 0 none;}
+.one_text{position: relative;text-align: center;margin-top: -40px;}
+.one_text1{font-size: 44px;line-height: 44px;color: #FFFFFF;}
+.one_text2{font-size: 16px;line-height: 16px;color: #FFFFFF;    font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 6px;margin-top: 5px;}
+.one_text3_zuo{
+position: relative;text-align: center;left: -230px;top: 20px;}
+.one_text3_center{font-size: 48px;text-align: center;color: #FFFFFF;}
+.one_text3_you{position: relative;text-align: center;left: 230px;top: -10px;}
+.one_text4{text-align: center;color: #FFFFFF;font-size: 20px;}
+.one_text5{text-align: center;color: #FFFFFF;font-size: 20px;}
+.one_xiala{width: 58px;height: 58px;display: block;margin: 0 auto;margin-top: 20px;
+background: url(../img/aboutxiaoniao/donext.png)no-repeat 0 -58px;}
+.one_xiala:hover{background-position: 0px 0px;transition: 0.3s;}
+.two_content{width: 100%;height: 100%;min-width: 1100px;margin: 0 auto;
+overflow: hidden;position: relative;}
+.two_lb_big{width: 300%;position: absolute;left: 0;top: 0;height: 100%;}
+.two_lb_list{width: 33.333333%;height: 100%;float: left;text-align: center;
+background-color: white;}
+/* .two_lb_list:nth-child(1){background: orange;}
+.two_lb_list:nth-child(2){background: blue;}
+.two_lb_list:nth-child(3){background: greenyellow;} */
+.lb1_gaishu{font-size: 54px;color: #311759;margin-top: 50px;font-weight: bold;}
+.lb1_title{width: 630px;margin: 0 auto;position: relative;margin-top: 20px;line-height: 30px;}
+.lb1_text{font-size: 18px;
+    color: #6b6a6f}
+.lb1_zuo{position: absolute;left: -34px;top: -3px;}
+.lb1_you{position: absolute;right: -30px;top: 64px;}
+.lb1_img img{margin-top: 20px;margin-right: 30px;}
+.lb2_box{width: 700px;margin: 0 auto;text-align: center;height: 100%;}
+.lb2_img_top{border: 0 none;margin-top: 70px;}
+.lb2_text{    margin-top: 50px;
+    overflow: hidden;
+    color: #6b6a6f;
+    text-align: left;}
+.lb2_text_img{float: left;}
+.lb2_text_wenben{width: 520px;margin-left: 55px;float: left;}
+.lb2_text_wenben h1{font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;}
+.lb2_text_wenben h2{    font-size: 18px;
+    font-weight: normal;}
+.lb3_box{width: 100%;height: 100%;text-align: center;}
+.lb3_top_tit{color: #221236;
+    font-size: 36px;        width: 630px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;margin-top: 80px;}
+.lb3_tit_img1{    position: relative;
+    left: -8px;
+    top: -30px;}
+.lb3_tit_img2{    position: relative;
+    right: -10px;
+    top: 18px;}
+.lb3_text{width: 730px;
+    margin: 55px auto 0;
+    line-height: 30px;
+    font-size: 18px;
+    color: #6b6a6f;
+    text-align: left;
+    text-indent: 2em;}
+.lb3_bottom_img{margin-top: 90px;border: 0 none;}
+.lb_prve{position: absolute;width: 58px;height: 58px;left: 60px;
+top: 50%;margin-top: -29px;z-index: 100;display: block;
+background: url(../img/aboutxiaoniao/goleft.png)no-repeat;}
+.lb_next{position: absolute;width: 58px;height: 58px;right: 60px;
+top: 50%;margin-top: -29px;z-index: 100;display: block;
+background: url(../img/aboutxiaoniao/goright.png)no-repeat -58px 0}
+.lb_prve:hover{background-position: -58px 0;transition: 0.3s;}
+.lb_next:hover{background-position: 0px 0;transition: 0.3s;}
+.lb_opacity{opacity: 0.4;transition: 0.3s;}
+.three_box{width: 970px;height: 100%;margin: 0 auto;}
+.three_tit{text-align: center;font-size: 48px;margin-top: 80px;
+    margin-bottom: 100px;}
+.huxideng{overflow: hidden;margin: 10px 0;}
+.zuoce{float: left;width: 20px;height: 20px;position: relative;}
+.youce{float: right;width: 20px;height: 20px;position: relative;}
+.zuoce_img1{position: absolute;left: 0;top: 0;}
+.zuoce_img2{position: absolute;left: 0;top: 0;opacity: 0;}
+.youce_img1{position: absolute;left: 0;top: 0;}
+.youce_img2{position: absolute;left: 0;top: 0;opacity: 0;}
+.three_content{    height: 317px;
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;}
+.three_content_list{    float: left;
+    width: 390px;
+    margin-right: 30px;
+    margin-bottom: 46px}
+.yuanquan{    width: 74px;
+    height: 74px;
+	background: url(../img/aboutxiaoniao/jiazhi_quanquan.png)no-repeat;
+	line-height: 74px;text-align: center;margin-right: 27px;float: left;
+	font-family: Arial, Helvetica, sans-serif;}
+.list_text{    float: left;
+    width: 280px;
+    font-size: 18px;
+    margin-top: 13px;}
+.huxideng_active{opacity: 1;transition: 1s;}
+.fore_box{width: 910px;margin: 0 auto;height: 100%;position: relative;overflow: hidden;}
+.fore_tit{    font-size: 54px;margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #311759}
+.fore_lb_box{    height: 420px;
+    width: 910px;
+    overflow: hidden;
+    position: relative;}
+.fore_lb_big{width: 1820px;height: 420px;position: absolute;left: 0px;top: 0;}
+.fore_lb1{height: 420px;
+    width: 910px;float: left;line-height: 36px;font-size: 16px;    font-family: KaiTi_GB2312;
+    color: #535355;background: url(../img/aboutxiaoniao/xuxian_bg.png);}
+.fore_lb1 p{text-indent: 2em;}
+.fore_aniu{width:240px;height: 8px;margin: 0 auto;}
+.fore_aniu1{    float: left;
+    margin: 0 12px;
+    width: 78px;
+    height: 8px;    border-radius: 4px;    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+	background: url(../img/aboutxiaoniao/xiaoniaoyun_btn.png)no-repeat 0 -8px;}
+
+.bianse{    width: 78px;
+    height: 8px;cursor: pointer;   position: absolute;
+    top: 0;transition: all 0.5s ease 0s;
+	 background: url(../img/aboutxiaoniao/xiaoniaoyun_btn.png)no-repeat 0px 0px}
+.now{left: -102px;}
+.fore_you span{position: absolute;left: -102px;}
+.last_one{background: url(../img/aboutxiaoniao/app&contacts_bg.gif)center center no-repeat;
+overflow: hidden;position: relative;min-width: 1100px;
+background-size: cover;}
+.five_box{    width: 910px;    position: absolute;    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -576px;}
+.five_box_top{    position: relative;margin-top: 15px;}
+.five_box_top p{    left: 213px;
+    top: 0px;    color: #fff;
+    position: absolute;}
+.five_box_top h1{left: 550px;
+    top: 113px;    color: #fff;
+    position: absolute;}
+.five_box_top img{    margin-left: 145px;border: 0 none;}
+.five_box_xia{float: right;}
+.five_box_xia h1{    line-height: 60px;
+    height: 60px;
+    width: 380px;    color: #191919;
+    margin-bottom: 14px;
+	background: url(../img/aboutxiaoniao/contacts_line.png)no-repeat left bottom;}
+.five_box_xia p{    line-height: 32px;
+    color: #191919;}
+.content-two{    width: 100%;
+    height: 100%;
+    background: rgb(41, 154, 214);    position: fixed;top: 0;left: 0;min-width: 1100px;
+    z-index: 9999;    overflow: hidden;text-align: center;}
+.two_box{position: relative;width: 1100px;margin: 0 auto;height: 100%;
+color: #fff;text-align: center;/* background-color: red; */}
+.top1{position: absolute;left: 50%;margin-left: -200px;top: 100px;text-align: center;}
+/* .top2{display: block;width: 100%;position: absolute;top: 100px;margin: 0 auto;} */
+.top2_1{    font-size: 44px;text-align: center;bottom: -100px;opacity: 0;
+    line-height: 48px;display: block; position: absolute;left: 50%;/* top: 420px; */margin-left: -88px; }
+.animated{    animation-fill-mode: both;    animation-duration: 1s;}
+.top2_2{    font-size: 16px;text-align: center;
+    font-family: Arial, Helvetica, sans-serif;opacity: 0;bottom: -100px;
+    letter-spacing: 4px;display: block;position: absolute;left: 50%;/* top: 470px; */margin-left: -85px;}
+.top2_3{    padding-top: 15px;position: absolute;left: 50%;/* top: 500px; */margin-left: -240px;text-align: center;
+bottom: -100px;opacity: 0;}
+.top2_3 img:nth-child(1){    position: relative;
+    left: -8px;
+    top: -30px;border: 0 none;}
+.top2_3 img:nth-child(2){        position: relative;
+    right: -8px;
+    top: 17px;border: 0 none;}
+.top2_3 span{    font-size: 48px;}
+.top2_4{    margin-top: 20px;text-align: center;bottom: -100px;opacity: 0;
+    display: block;font-size: 20px;position: absolute;left: 50%;/* top: 560px; */margin-left: -270px;}
+.top2_5{font-size: 20px;position: absolute;left: 50%;/* top: 600px; */margin-left: -250px;text-align: center;
+bottom: -100px;opacity: 0;}

@@ -1,0 +1,38 @@
+.header{height: 120px;background-color: #332347;}
+.header_warp{background-color: #332347;background: url(../img/header_bg.jpg)top center;}
+.header_bx{width: 1100px;height: 120px;margin: 0 auto;}
+.logo{float: left;}
+.logo img{border: none;}
+.nav{width: 630px;height: 25pox;margin: 0 auto;line-height: 25px;text-align: right;float: right;
+margin-top: 45px;}
+.nav_list{    float: left;
+    position: relative;
+    color: #fff;
+    z-index: 999;}
+.nav_list h1{font-style: normal;
+cursor: pointer;text-align: center;
+font-size: 16px;color: #FFFFFF;
+padding: 0 15px;position: relative;height: 35px;
+}
+.xialajiantou{position: absolute;width: 25px;height: 25px;right: 8px;top: 0;
+background: url(../img/nav_xiajiantou.png)no-repeat bottom center;}
+.nav_list2 h1{padding: 0 40px 0 15px;font-style: normal;
+cursor: pointer;text-align: center;
+font-size: 16px;color: #FFFFFF;position: relative;height: 35px;}
+.xiala{    font-size: 15px;
+    position: absolute;
+    left: -16px;
+    top: 35px;
+    width: 180px;
+    line-height: 40px;
+    background: #36264a;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+	display: none;}
+.shouye1{background: url(../img/nav_now_bg.png)no-repeat bottom center;}
+.xiala li{text-align: left;padding-left: 30px;transition: padding-left 0.4s ease 0s;color: #fff;}
+.xiala li:hover{padding-left: 40px;
+background: #3498db url(../img/nav_li_bg.png)no-repeat 165px 15px;}
+/* .nav_list2:hover .xiala{display: block;} */
+.nav_list:hover{background: url(../img/nav_now_bg.png)no-repeat bottom center;}
